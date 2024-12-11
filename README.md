@@ -14,6 +14,9 @@ Before running the project, make sure you have the following installed:
 - Python 3.x
 - OpenCV (`opencv-python` package)
 - Dlib (`dlib` package)
+- Pre-trained `dlib` models:
+   - `shape_predictor_68_face_landmarks.dat`
+   - `dlib_face_recognition_resnet_model_v1.dat`
 - Pandas (`pandas` package)
 - Numpy (`numpy` package)
 
