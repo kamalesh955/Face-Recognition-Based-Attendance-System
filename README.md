@@ -35,7 +35,7 @@ Before running the project, make sure you have the following installed:
 -Update the list of student images in the code with the filenames of the student photos and their labels.
 
 -Run the script:
--  '''python attendance_system.py'''
+-  ```python attendance_system.py```
 
 -The script will open the webcam and start detecting faces. It will attempt to match each face with the pre-stored images and mark attendance as Present for recognized faces.
 
