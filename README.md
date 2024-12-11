@@ -24,3 +24,23 @@ Before running the project, make sure you have the following installed:
 1. Clone the repository or download the code.
 2. Install the required dependencies:
   -  ```pip install opencv-python dlib pandas numpy```
+3. Pre-trained `dlib` models:
+   - `shape_predictor_68_face_landmarks.dat`
+   - `dlib_face_recognition_resnet_model_v1.dat`
+
+### Usage###:
+
+-Place the images of the students you wish to recognize in the same directory as the script or modify the paths in the code accordingly.
+
+-Update the list of student images in the code with the filenames of the student photos and their labels.
+
+-Run the script:
+python attendance_system.py
+
+-The script will open the webcam and start detecting faces. It will attempt to match each face with the pre-stored images and mark attendance as Present for recognized faces.
+
+-Press 'q' to quit the program.
+
+-After the session ends, the attendance will be saved in the Excel file, where each student's attendance status is updated.
+
+
